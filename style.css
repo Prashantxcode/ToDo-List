@@ -1,0 +1,78 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#f2f2f2;
+  display:flex;
+  justify-content:center;
+  padding-top:50px;
+}
+
+.container{
+  width:500px;
+}
+
+h1{
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.input-box{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+input{
+  flex:1;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:5px;
+}
+
+button{
+  padding:12px 20px;
+  background:black;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+li{
+  list-style:none;
+  background:white;
+  margin-bottom:10px;
+  padding:15px;
+  border-radius:8px;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.left{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.completed{
+  text-decoration:line-through;
+  color:gray;
+}
+
+.delete-btn{
+  background:red;
+  color:white;
+  border:none;
+  padding:8px 12px;
+  border-radius:5px;
+  cursor:pointer;
+}
